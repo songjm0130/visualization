@@ -8,24 +8,50 @@
 - To test your evaluation skills, locate two public data visualizations online, one good and one bad  
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
+Bad visualization: https://public.tableau.com/app/profile/juliana.sampar/viz/AstudyaboutWorldHappiness/Whatwecantakeabouthapinnes
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      The graphs are trying to present the happiness data over the world, mainly for browse or exploration. The query is for compare and summarize. There is interactive functions for exploration as you can select a particular year to generate the graph, or you can click on a certain data to get the explanation.
 
+      Substantive: The choice of the type of visualization are adequete, with some room for improvement. It intended to cover aspects of the top and bottom 5 of the happiness countries and over time, distribution of the happiness scores in each year, and the clustering of the index of happiness behaviours.
 
-
-
-
-
+      Asaethetic: The graphs used color saturation to express magnitude and they are fully separable. 
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      The "Top5 and Bottom 5 bar chart" actually has Top 4 and Bottom 7, which is inconsistent with its title. The labels are too long so it could not be fully displayed.
+      
+      The "Top5 and Bottom 5 countries throughout the time line graph" is really confusing as the lines start on a unaligned scale, with dots and lines being used interchangeably, and lines overlapping with similar hues, leading to major interference and failed visual popout.
+      
+      Section 2 Distribution used the histogram that is hard to follow, maybe they should consider use line graph for distribution, which is more intuitive. The line graph that depicts the difference between the highest and lowest score throuout the years is hard to interpret with no grid of x axis and y axis. The scatterplot lacks clear explanation and legend, and seems not very informative with no visual popout given most of the plots are clustered together.
+      
+      Section 3 Clustering used two graphs that are hard to understand with the ineffective indicator of the magnitude or the categorical attributes (the color saturation or hue do not make sense). And the choice of the graph also confuses the audience.
+      
+      Overall, the graphs lack clear legends to guide the audience, although it has interactive features to explain the color or the lines, it is hard to read the whole graph.
 
+      Perceptually, it is unclear what is the main message that the graphs are trying to convey, given the high cognitive load with rare chart types, a combination of multiple visual elements and a lack of guidance.
 
+      
+      ```
+Good visualization: https://public.tableau.com/app/profile/marc.reid/viz/SouthKorea-Demographics/SouthKoreaPopulationDensityandDemographics
+- Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
+      ```
+      The graphs are doing a consume task that is intended for present. The Search is mainly for browse or exploration. The query is for compare and summarize. 
+      
+      Substantive: The choice of the types of visualization makes sense for its intended aim, which covered a couple aspects of demographics of South Korea, including the population density, total population, life expectancy, male/female proportion and fertility rate over the years. For example, line graph showing the trend over the years are clear.
+      The graphs followed the effectiveness principle and the expressiveness principle, that they used color hue to separate male and female, used color saturaion, length and position on common scale to represent different magnitude.
+      
+      Asaethetic: The graphs have clean layouts and use geometric shapes. The colors in the graphs are fully separable and offers popout, with very clear legend to refer to. 
 
+      ```
+    - How could this data visualization have been improved?  
+      ```
+      The left population density graph is unclear regarding the year it is reflecting, it should have a more clear graph title.
 
+      The y axis of the "Female and Male Percentage by the Age Group" is a bit hard to read with the contrast.
+
+      It is unclear perceptually what message the graphs are trying to convey.
 
 
       

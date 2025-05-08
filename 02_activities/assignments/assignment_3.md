@@ -7,23 +7,47 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+Visualization 1 
     > What software did you use to create your data visualization?
-
+        Python
     > Who is your intended audience? 
-    
+        Students or anyone who wants to explore and browse the relative performance of colleges on four KPIs: graduation rate, employment rate, graduation satisfaction, and employer satisfaction. This helps students compare colleges based on these important metrics.
     > What information or message are you trying to convey with your visualization? 
-    
+        I want to convey four important KPI for the students to consider: graduation rate, employment rate, graduation satisfaction, employer satisfaction
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    
+        I used bar chart and line graphs for different data characteristics for expressiveness principle. I used the position on common scale and length of the bar for effectiveness. I used a colorblind-friendly palette (Safe palette) for accessibility while use the hue for catogorical attributes. I make the plot interactive so users can explore data by selecting colleges. 
+        I also adjusted the y-axis and included gridlines for easy reading.
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+        I used Python library with plotly and pandas, which is open-source and allows anyone to recreate the visualization. The script and the data source are included for reproducibility.
     > How did you ensure that your data visualization is accessible?  
-    
+        I used a colorblind-friendly palette (Safe palette), aensured clear axis labels and a descriptive title, and made the plot interactive so users can engage with it in a way that suits their needs.
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+        Prospective students can use it to choose a college based on key metrics. Colleges can assess their own performance, and parents and policymakers can use it to support decisions about education.
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+        I focused on the four most relevant KPIs: graduation rate, employment rate, graduation satisfaction, and employer satisfaction
     > What ‘underwater labour’ contributed to your final data visualization product?
+        I calculated average and ranking for the data visualization. In order to generate grouped multiple graphs together, I explored the package px.bar() and px.line(), when I find out that go.graph() can only generate single graph. I also explored the color-blind safe palette. And lastly, I learned how to not show all the lines in the line graph by default for cleaner presentation and encouraging user interaction.
+
+Visualization 2 
+    > What software did you use to create your data visualization?
+        Tableau Public
+    > Who is your intended audience? 
+        Students or anyone interested in exploring and comparing the performance of Ontario colleges across four key performance indicators: **graduation rate**, **employment rate**, **graduate satisfaction**, and **employer satisfaction**. The visualization is designed to help users make informed comparisons based on these metrics.
+    > What information or message are you trying to convey with your visualization? 
+        The dashboard highlights four important KPI performances that prospective students should consider when choosing a college, and they can sort by choosing the category that they think is the most important.
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+        I used bar charts for data and display magnitude. I used color hue to distinguish the four categories. I used a reference line for indicate the provincial level of KPI. 
+        I incorporated interactive functions, such as filters, tooltips, sort, and highlight to support exploration.  
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+        Tableau Public allows users to access, explore, and download the embedded data, and the data source is provided.
+    > How did you ensure that your data visualization is accessible?  
+        I used distinctive colors to differentiate four categories, alt-text is provided. Legend and titles are clearly specified for understandability. Unfortunately, I cannot apply color-blind safe palette to the web version
+    > Who are the individuals and communities who might be impacted by your visualization?  
+        Prospective students can use it to choose a college based on key metrics. Colleges can assess their own performance, and parents and policymakers can use it to support decisions about education.
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+        I focused on the four most relevant KPIs: graduation rate, employment rate, graduation satisfaction, and employer satisfaction
+    > What ‘underwater labour’ contributed to your final data visualization product?
+        The province reference line is added to provide references of how the colleges perform.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
